@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-essentials';
+  rootName = 'Shane';
+
+  onNameChanged(newName) {
+    this.rootName = newName;
+  }
 }
