@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
+// Decorator, TS feature. Attaches extra information to a class
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'angular-essentials';
