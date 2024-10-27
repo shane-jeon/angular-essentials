@@ -1,0 +1,5 @@
+<h1>{{ title }}</h1>
+<!-- <p>{{ loadState }}</p> -->
+<button type="button" (click)="updatedLoad()">Finish Load</button>
+<p [textContent]="loadState"></p> 
+<input type="text" [(ngModel)]="loadState" />
