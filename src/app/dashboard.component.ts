@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
   title = 'Dashboard';
-  loadState = 'true';
+  loadState = 'loading';
 
   updatedLoad() {
     this.loadState = 'finished';

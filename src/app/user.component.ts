@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-
+import { UserDetailComponent } from './user-detail/user-detail.component';
 @Component({
   selector: 'app-user',
   template: `
@@ -7,6 +7,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     <!-- <input type="text" [(ngModel)]="name"> -->
     <p>Hello {{ name }}!</p>
     <p>I'm the user component!</p>
+    <app-user-detail></app-user-detail>
   `,
 })
 export class UserComponent {

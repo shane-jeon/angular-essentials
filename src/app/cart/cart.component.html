@@ -1,0 +1,5 @@
+<!-- Binding input value using ngModel -->
+ <!-- Makes items "bindable" -->
+<input type="text" [(ngModel)]="newItem">
+<!-- On click, will run event emitter method (exists in cart.component.ts) -->
+<button type="button" (click)="onAddItem($event)">Add Item</button>
