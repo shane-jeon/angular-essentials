@@ -3,7 +3,7 @@
 <div class="content" style="text-align:center">
   <h1>{{title}}</h1>
 </div>
-<app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
-<!-- <app-cart [items]="rootItems" (itemAdded)="onItemWasAdded($event)"></app-cart> -->
+<!-- <app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user> -->
+<app-cart [items]="rootItems" (itemAdded)="onItemWasAdded($event)"></app-cart>
 <!-- <app-dashboard></app-dashboard> -->
 <!-- <router-outlet /> -->
